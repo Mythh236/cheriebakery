@@ -1,0 +1,699 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: Montserrat regular;
+	src:url("../fonts/Montserrat-Regular.ttf"),
+		url("../fonts/Montserrat-Regular.woff"),
+		url("../fonts/Montserrat-Regular.eot");
+}
+@font-face{
+	font-family: Montserratbold;
+	src:url("../fonts/Montserrat-Bold.ttf"),
+		url("../fonts/Montserrat-Bold.eot"),
+		url("../fonts/Montserrat-Bold.woff");
+}
+@font-face{		
+	font-family:Montserratsemibold;
+	src:url("../fonts/Montserrat-SemiBold.ttf"),
+		url("../fonts/Montserrat-SemiBold.eot"),
+		url("../fonts/Montserrat-SemiBold.ttf");
+}
+@font-face{		
+	font-family:Montserratlight;
+	src: url("../fonts/Montserrat-Light.ttf"),
+		 url("../fonts/Montserrat-Light.eot"),
+		 url("../fonts/Montserrat-Light.woff");
+}
+@font-face{	
+	font-family: Pacifico;
+	src:url("../fonts/Pacifico-Regular.ttf"),
+		url("../fonts/Pacifico-Regular.woff"),
+		url("../fonts/Pacifico-Regular.eot");
+}
+
+/*-----------------HEADER-----------------------*/
+#bgheader{
+	background-color: #473A61;
+	height: 40px;
+	font-size: 14px;
+	font-family: Montserrat regular; 
+	color: white;
+}
+
+#bgheader .container{
+	padding:0px;
+}
+
+#hotline{
+	color: white;
+	justify-content: flex-start;
+	display:flex;
+	margin:0px;
+	line-height: 40px;
+	align-items: center;	
+}
+#searchfill{
+	border-radius: 9px;
+	border:none;
+	width: 250px;
+	position:relative;
+}
+
+#searchform{
+	position:relative;
+}
+
+#searchbox{
+	font-size: 12px;
+	display:flex;
+	align-items: center;
+	height: 40px;
+}
+
+
+#searchicon{
+	color:#473A61;
+	font-size:14px;
+	position: absolute;
+	right: 0px;
+	margin-right:10px;
+}
+
+#searchicon:hover{
+	color: #C1B6DA;
+}
+
+#signinup{
+	justify-content: flex-end;
+	display:flex;
+}
+
+#signinup ul li{
+	margin-left:10px;
+	line-height: 40px;
+	align-items: center;
+}
+
+#signinup ul li a{
+	color:white;
+	padding:0px;
+}
+
+#signinup ul li a:hover{
+	color:#C1B6DA;
+	padding:0px;
+}
+
+
+/*-----------------NAVI----------------------*/
+#bgnavi {
+	background:white;
+	height: 60px;
+	position:sticky;
+	top:0;
+	z-index: 2000;
+	border-bottom: 1px solid #D5D5D5;
+}
+
+#logo {
+	line-height: 60px;
+	display:flex;
+	align-items: center;
+	padding:0px;
+}
+ 
+#iconhamburger{
+	line-height: 60px;
+	align-items: center;
+	font-size:30px;
+	color: black;
+}
+
+#navi{
+	height: 60px;
+	padding:0px;
+}
+
+#navi ul li a{
+	color: #473A61;
+	align-items: center;
+	padding:0px;
+	margin-left: 64px;
+	font-family:Montserratsemibold;
+	font-size:16px;
+}
+
+#navi ul li a:hover{
+	color: #C1B6DA;
+}
+
+#navi ul {
+	line-height:60px;
+}
+
+#iconsearchmob{
+	font-size:30px;
+	line-height: 60px;
+	align-items: center;
+	color: white;
+	float:right;
+}
+
+/*-----------------NAVI----------------------*/
+#icons{
+	height: 60px;
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	padding:0px;
+}
+
+#icons a {
+	margin-left:24px;
+	font-size: 20px;
+	color: #473A61;
+}
+
+#icons a:hover{
+	color:#C1B6DA;
+}
+
+
+/*-----------------MOBILE NAVI----------------------*/
+#bgmobilenavi{
+	background:#473A61;
+	position:fixes;
+	z-index: 1900;
+}
+
+#mobilenavi{
+	padding:0px;
+}
+
+#mobilenavi ul li a{
+	color:#fff;
+	font-size:16px;
+	border-bottom: 1px solid #3A3A3A;
+ 
+}
+
+/*-----------------MOBILE SEARCH----------------------*/
+#bgmobilesearch{
+	background:#473A61; 
+	height: 60px;
+	position:fixed;
+	z-index: 1900;
+	padding-left:30px;
+	padding-top:10px;
+}
+
+#mobilesearchfill{
+	width: 85%;
+	height: 40px;
+	float:left;
+	border: none;
+	padding-left: 7px;
+	background: #CCCCCC;
+}
+ 
+#mobilesearchicon{
+	width:15%;
+	height:40px;
+	float:left;
+	border: none;
+	background: #F7999A; 
+	
+	
+}
+#mobilesearchicon i {
+	font-size: 20px;
+}
+
+/*-----------------BANNER SLIDER---------------------*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.btnreadnow1{
+	color:#473A61;
+	background: #C1B6DA;
+	border-radius: 9px;
+	text-decoration: none;
+	font-size: 16px;
+	justify-content: center;
+	height: 40px;
+	display:flex;
+	align-items: center;
+	width:160px;	
+	margin: 14px auto 0px auto;	
+}
+
+.btnreadnow1:hover{
+	text-decoration: none;
+	background:#473A61;
+	color:white;
+
+}
+
+.btnreadnow{
+	color:#473A61;
+	background: #C1B6DA;
+	border-radius: 9px;
+	text-decoration: none;
+	font-size: 16px;
+	height: 40px;
+	display:flex;
+	align-items: center;
+	width:160px;
+	justify-content: center;
+	margin:0 auto;
+}
+
+.btnreadnow:hover{
+	text-decoration: none;
+	background:#473A61;
+	color:white;
+	margin:0 auto;
+}
+
+.title1{
+	font-family: Montserrat regular; 
+	font-size:32px;
+	color:#473A61;	
+
+}
+
+.title2{
+	font-family: Montserrat regular; 
+	font-size:32px;
+	color:white;	
+
+}
+
+.caption1{
+	display:flex;
+	justify-content:flex-end;
+	height:100%;
+	align-items: center;
+}
+
+#caption2{
+	margin-bottom: 40px;
+}
+
+/*----------------OUR MENU--------------------*/
+.bigtitle{
+	text-align: center;
+	font-size:42px;
+	font-family: Pacifico; 
+	padding-top:60px;
+	padding-bottom: 40px;
+	color: #473A61;
+}
+
+#ourmenu{
+	
+}
+
+#cupcake, #pietart{
+	background:#473A61;
+	color:white;
+	font-family: Montserratsemibold;
+/*	height: 277.5px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size:20px;
+}
+ /*chỗ này làm hover +20% black cho nền*/
+
+#menupic1{
+	background-image: url("../imgs/cupcakes.jpg");
+	background-size: auto;
+/*	height: 277.5px;*/
+	background-size:cover;
+	background-position: center;
+}
+
+#menupic2{
+	background-image: url("../imgs/ketochessecake.jpg");
+/*	height: 277.5px;*/
+	background-size:cover;
+	background-position: center;
+}
+
+#menupic3{
+
+	background-image: url("../imgs/wedding cake (cut).jpg");
+/*	height: 277.5px;*/
+	background-size:cover;
+	background-position: center;
+}
+
+#menupic4{
+	background-image: url("../imgs/cherrypie.jpg");
+/*	height: 277.5px;*/
+	background-size:cover;
+	background-position: center;
+}
+
+
+#cheesecake{
+	background:#FDF4E6;
+	color:#473A61;
+	font-family: Montserratsemibold;
+	height: 277.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size:20px;
+}
+
+#wdcake{
+	background:#C1B6DA;
+	color:#473A61;
+	font-family: Montserratsemibold;
+	height: 277.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size:20px;
+}
+
+
+/*--------------BANNER 04--------------------*/
+#bgbanner04{
+	background-image: url("../imgs/saltedcupcake.jpg");
+	height: 540px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-top:60px;
+	}
+
+#bannercontent04{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 660px;
+	text-align: center;
+}
+
+.descripbanner04{
+	color:white;
+	font-family:Montserrat regular;
+	font-size:18px;
+}
+
+.title4{
+	font-family: pacifico;
+	color: white;
+	
+}
+/*--------------OUR MENU---------------------*/
+
+.img-pc{
+	padding: 40px;
+	border-radius: 24px;
+	box-shadow: 5px 5px 20px rgba(122,122,122,1.00);
+	background-color: white;
+	height: 100%;
+	
+}
+
+.nameproduct{
+	font-family:  Montserratsemibold;
+	font-size: 20px;
+	color:#473A61;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.heart{
+	font-size:22px;
+	color:#473A61;
+	position:absolute;
+	top:48px;
+	right:72px;
+	
+}
+.price{
+	font-family:  Montserratsemibold;
+	font-size: 32px;
+	color:#473A61;
+}
+
+.description{
+	font-family: Montserrat regular; 
+	font-size: 14px;
+	color:#473A61;	
+}
+
+.buynow{
+	color:white;
+	background: #473A61;
+	border-radius: 9px;
+	text-decoration: none;
+	font-size: 18px;
+	height: 40px;
+	font-family: Montserratsemibold;
+	width: 230px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.buynow:hover{
+	color:#C1B6DA;
+	background-color: #473A61;
+	text-decoration: none;
+}
+
+
+.shoppingicon{
+	color: #473A61;
+	width:15%;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	justify-content: center;
+
+}
+
+.btnpc{
+	display:flex;
+}
+
+.product{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	min-height: 400px;
+}
+
+#ourmenu{
+		margin:0px;
+	padding:0px;
+}
+
+/*----------------BANNER05--------------------*/
+#bgbanner05{
+	background-image: url("../imgs/weedingcake.jpg");
+	height: 540px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-top:60px;
+	}
+
+#bannercontent05{
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	justify-content: flex-start;
+	height:540px;
+}
+
+#btnreadnow2{
+	border: 1px solid white;
+	border-radius: 9px;
+	text-decoration: none;
+	font-size: 16px;
+	height: 40px;
+	display:flex;
+	align-items: center;
+	width:160px;
+	justify-content: center;
+	color:white;
+}
+
+.descripbanner05{
+	font-family: Montserratlight;
+	color:white;
+	font-size:16px;
+}
+
+/*----------------OUR SPECIALITES--------------------*/
+
+#bgspecialities{
+	background: #FDF4E6;
+	height:851px;
+}
+
+.bgblog{
+	background: white;
+	height:535px;
+	padding: 40px;
+	border-radius: 24px;
+}
+
+.img-box > img{
+	height:271px;
+	border-radius: 12px;
+	
+}
+
+.viewmore{
+	color:#473A61;
+	background: #C1B6DA;
+	border-radius: 9px;
+	text-decoration: none;
+	font-size: 16px;
+	justify-content: center;
+	height: 40px;
+	display:flex;
+	align-items: center;
+	width:160px;	
+	margin: 14px auto 0px auto;	
+}
+
+/*-----------------OUR STORY---------------------*/
+#bgstory{
+	background:#473A61;
+	color:white;
+	height: auto;
+	padding: 40px 0px;
+}
+#contentstory1{
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*-----------------VALUES---------------------*/
+.values{
+	height: 200px;
+	margin-top:60px;
+}
+
+.value1{
+	
+	text-align: center;
+}
+
+.imgvalue{
+	text-align:center;
+	max-width: 160px; 
+	width: 100%; 
+}
+
+.content{
+	font-family: Montserratbold;
+	text-align: center;
+	color:#473A61;
+}
+
+
+
+ /*<!---------------------------TESTIMOMIALS--------------------------->  
+	  
+	   /*<!---------------------------BANNER 06---------------------------> */
+#bgbanner06{
+	background-image: url("../imgs/redvvcake.png");
+	height: 450px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-top:60px;
+	}
+
+	  
+	  
+	 /* <!---------------------------CHEESE CAKE--------------------------->  */
+	  
+	  /* <!---------------------------BANNER 07---------------------------> */
+	 #bgbanner07{
+	background-image: url("../imgs/carrotcake.png");
+	height: 500px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-top:60px;
+	}
+ 
+	  /* <!---------------------------BLOGS---------------------------> */
+	  
+	   /*<!---------------------------SIGNUP---------------------------> */
+	 #bgbanner08{
+	background-image: url("../imgs/redcake.jpg");
+	height:380px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-top:60px;
+	}  
+	   /*<!---------------------------FOOTER---------------------------> */
+#bgfooter{
+	background:#473A61;
+	height:668px;
+}
+
+/*-----------------EXTRA-LARGE---------------------*/
+@media (min-width:1200px){
+		#cupcake, #cheesecake, #wdcake, #pietart{
+		height:277.5px;
+	}	
+	
+}
+/*-----------------LARGE---------------------*/
+@media(min-width: 992px) and (max-width: 1199px){
+	#cupcake, #cheesecake, #wdcake, #pietart{
+		height:210px;
+		
+	}	
+	#bgbanner04,#bgbanner05, #bgbanner06, #bgbanner07, #bgbanner08{
+	height: 380px;
+	
+	
+}
+/*-----------------MEDIUM---------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+		#cupcake, #cheesecake, #wdcake, #pietart{
+		font-size:15px;
+		height:150px;
+		}	
+	#bgbanner04,#bgbanner05, #bgbanner06, #bgbanner07, #bgbanner08{
+		height: 280px;
+	}
+
+}
+/*-----------------SMALL---------------------*/
+@media(min-width: 576px) and (max-width: 767px){
+		#cupcake, #cheesecake, #wdcake, #pietart{
+		height:240px;
+		}
+		#bgbanner04,#bgbanner05, #bgbanner06, #bgbanner07, #bgbanner08{
+		height: 220px;
+		}
+		.imgvalue{
+		max-width: 100px; 	
+}
+
+}
+/*-----------------EXTRA SMALL---------------------*/
+@media(max-width: 575px){
+		#cupcake, #cheesecake, #wdcake, #pietart{
+		height:210px;
+		}
+		#bgbanner04,#bgbanner05, #bgbanner06, #bgbanner07, #bgbanner08{
+		height: 180px}
+		.imgvalue{
+		max-width: 100px; }
+}

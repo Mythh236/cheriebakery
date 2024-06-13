@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOME CHERIE</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="js/OwlCarousel/dist/assets/owl.carousel.min.css">
+	<link href="js/OwlCarousel/dist/assets/owl.theme.default.css">
+	<link href="css/STYLE_CHERIE.css" rel="stylesheet">
+	  
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	 
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script src="FontAwesome.Pro.6.1.1/fontawesome-pro-6.1.1-web/js/all.js"></script>
+  </head>
+	
+  <body>
+	<!--------------------------HEADER----------------------------------->
+		<div class="container-fluid d-none d-md-block" id="bgheader">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3
+								col-lg-4
+								col-md-4 " id="hotline">
+						<p>Hotline: 19001860</p>
+					</div><!------hotline-------->
+					
+					<div class="col-xl-4 offset-xl-1
+								col-lg-5 offset-xl-0
+								col-md-5 offset-md-0" id="searchbox">
+						<form id="searchform" action="" method="post">
+							<input type="text" placeholder="Search here..." id="searchfill">
+							<a id="searchicon"><i class="fa-solid fa-magnifying-glass"></i></a>
+						</form>	
+					</div><!------searchbox-------->
+					
+					<div class="col-xl-4
+								col-lg-3
+								col-md-3 " id="signinup">
+						<ul class="nav">
+						  <li class="nav-item">
+							<a class="nav-link" href="#">Sign In</a>
+						  </li>
+							<li class="nav-item">|</li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">Sign Up</a>
+						  </li>
+						</ul>
+					</div><!------signinup--------->
+				</div><!------row---------->
+			</div><!--------container------------>
+		</div><!--------container-fluid------------>
+	  
+	  <!--------------------------NAVI--------------------------------->
+		<div class="container-fluid sticky-top" id="bgnavi">
+		  <div class="container">
+				<div class="row">
+					<!-----------logo----------->
+		  			<div class="col-xl-2
+								col-lg-2
+								col-md-1" id="logo" >
+						<img alt src="logoCherie.svg" height="40px">
+					</div><!------logo------->
+					
+					<!---------------------->
+					<div class="col-xl-8 offset-xl-0
+								col-lg-8 offset-lg-0
+								col-md-9 offset-md-0
+								d-none d-md-block" id="navi">
+						<ul class="nav justify-content-center">
+						  <li class="nav-item">
+							<a class="nav-link" href="#">HOME</a>
+						  </li>
+							<li class="nav-item">
+							<a class="nav-link" href="#">MENU</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">ABOUT US</a>
+						  </li>
+							<li class="nav-item">
+							<a class="nav-link" href="#">CONTACT</a>
+						  </li>
+							<li class="nav-item">
+							<a class="nav-link" href="#">BLOG</a>
+						  </li>
+						</ul>
+					</div><!------navi--------->
+
+					
+					<!-----------icons------------>	
+					<div class="col-xl-2
+								col-lg-2
+								col-md-2" id="icons">
+						<a><i class="fa-regular fa-heart"></i></a>
+						<a><i class="fa-regular fa-cart-shopping"></i></a>
+						<a><i class="fa-regular fa-user"></i></a>
+					</div> <!--icons-->	
+		  		</div><!--row-->
+			</div><!--container-->
+	  </div><!--container-fluid-->
+	  
+	  <!----------------MOBILE NAVI------------------->	
+		<div class="container-fluid d-md-none" id="bgmobilenavi">
+			<div class="row">
+				<div class="col-sm-12
+							col-12" id="mobilenavi">
+					<ul class="nav flex-column">
+						  <li class="nav-item">
+							<a class="nav-link" href="#">HOME</a>
+						  </li>
+							<li class="nav-item">
+							<a class="nav-link" href="#">MENU</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">ABOUT US</a>
+						  </li>
+							<li class="nav-item">
+							<a class="nav-link" href="#">CONTACT</a>
+						  </li>
+							<li class="nav-item">
+							<a class="nav-link" href="#">BLOG</a>
+						  </li>
+							<li class="nav-item">
+							<a class="nav-link" href="#">CONTACT</a>
+						  </li>
+						</ul>
+				</div><!------mobilenavi---------->
+			</div><!------row---------->
+		</div><!--------bgmobilenavi------------>
+		
+		<!----------------MOBILE SEARCH------------------->	
+		<div class="container-fluid d-md-none" id="bgmobilesearch">
+			<div class="row">
+				<div class="col-sm-12
+							col-12" id="mobilesearch">	
+				</div>
+				<form action="" method="post">
+					<input type="text" placeholder="Search here..." id="mobilesearchfill">
+					<button id="mobilesearchicon"> <i class="fas fa-search"></i></button>
+				</form>	
+			</div><!------row----------->
+		</div><!--------container-fluid------------>
+		
+  <!---------------------------BANNER SLIDER--------------------------->
+	<div id="bannerslider" class="carousel slide" data-ride="carousel">
+		  <ul class="carousel-indicators">
+			<li data-target="#bannerslider" data-slide-to="0" class="active"></li>
+			<li data-target="#bannerslider" data-slide-to="1"></li>
+			<li data-target="#bannerslider" data-slide-to="2"></li>
+		  </ul>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img src="imgs/purplecake.jpg" alt="">
+			  <div class="carousel-caption caption1">  
+				<div><h3 class="title1">The perfect cake every time</h3>
+				<a href="" class="btnreadnow1"> Read now</a></div>
+			  </div>   
+			</div>
+			<div class="carousel-item">
+			  <img src="imgs/roolcake.jpg" alt="">
+			  <div class="carousel-caption" id="caption2">
+				<div><h3 class="title2">Take a bite of the sweetest pie</h3>
+				<a href="" class="btnreadnow"> Read now</a></div>
+			  </div>   
+			</div>
+			<div class="carousel-item">
+			  <img src="imgs/banner2.jpg" alt="">
+			  <div class="carousel-caption caption1">
+				<div><h3 class="title1">Want something sweet?</h3>
+				<a href="" class="btnreadnow1"> Read now</a></div>
+			  </div>   
+			</div>
+		  </div> <!------carousel-inner-------->
+		  <a class="carousel-control-prev" href="#bannerslider" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#bannerslider" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		  </a>
+	</div><!--------bannerslider------------>
+	  
+	 <!---------------------------CATEGORIES--------------------------->  
+	    <div class="container">
+		  <div class="row">
+			  <div class="col-xl-12
+						  col-lg-12
+						  col-md-12
+						  col-sm-12
+						  col-12 bigtitle">Our menu</div>
+		  </div><!------row----------->
+			<div class="row justify-content-center" id="ourmenu">
+				<div class="row col-xl-6
+							col-lg-6
+							col-md-6
+							col-sm-6
+							col-6">
+					<div class="col-xl-6
+								col-lg-6
+								col-md-6
+								col-sm-12
+								col-12 " id="cupcake">CUPCAKE</div>
+					<div class="col-xl-6
+								col-lg-6
+								col-md-6
+								col-sm-12
+								col-12 " id="menupic1"></div>
+					<div class="col-xl-6
+								col-lg-6
+								col-md-6
+								col-sm-12
+								col-12 " id="menupic3"></div>
+					<div class="col-xl-6
+								col-lg-6
+								col-md-6
+								col-sm-12
+								col-12 " id="wdcake">WEDDING CAKE</div>
+				</div><!------row----------->
+				<div class="row col-xl-6
+							col-lg-6
+							col-md-6
+							col-sm-6
+							col-6">
+					<div class="col-xl-6
+								col-lg-6
+								col-md-6
+								col-sm-12
+								col-12 " id="cheesecake"> CHEESECAKE</div>
+					<div class="col-xl-6
+								col-lg-6
+								col-md-6
+								col-sm-12
+								col-12 " id="menupic2"></div>
+					<div class="col-xl-6
+								col-lg-6
+								col-md-6
+								col-sm-12
+								col-12 " id="menupic4"></div>
+					<div class="col-xl-6
+								col-lg-6
+								col-md-6
+								col-sm-12
+								col-12 " id="pietart">PIE & TART </div>
+				</div><!------row----------->
+			</div><!------ourmenu----------->
+	  	</div><!--------container----------->
+		  
+ <!---------------------------BANNER04--------------------------->
+	  
+	<div class="container-fluid" id="bgbanner04">	
+		<div class="container">
+			<div class="row" id="bannercontent04">
+				<div>
+					<div> 
+						<h2 class="title2"> Salted caramel cupcake</h2>	
+						<p class="descripbanner04">Sweet and sour. These two will blow your flavor! </p>
+						<a href="" class="btnreadnow"> Read now </a>	
+					</div><!--bgcontent-->	
+				</div><!--bannercontent01-->
+			</div><!--row-->
+		</div>	<!--container-->
+	</div> <!--container-fluid-->
+	  
+	  
+ <!---------------------------BEST SELLER--------------------------->
+	<div class="container">
+		<div class="col-xl-12
+						  col-lg-12
+						  col-md-12
+						  col-sm-12
+						  col-12 bigtitle">Best seller
+
+		 </div><!--row-->
+		<div>
+			<div class="row justify-content-between productcard">
+		  		<div class="row 
+					  col-xl-4
+					  col-lg-4
+					  col-d-4
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/mincupcake.jpg" class="img-fluid " alt="">
+						</div>
+							 <a href="#" class="heart"><i class="fa-regular fa-heart"></i></a>
+							 <p class="nameproduct">Vanilla blue cupcake</p>
+							 <p class="description">Vanilla flavor, all purpose flour, egg, milk, whipping cream,...</p>
+							 <h3 class="price">$4.75</h3>
+						<div class="btnpc">
+							<a href="" class="buynow" > Buy now </a>
+					 		<a href="" class="shoppingicon"><i class="fa-regular fa-cart-shopping"></i></a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+			</div>
+			
+				  <div class="row 
+					  col-xl-4
+					  col-lg-4
+					  col-d-4
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/cranberry orange cake.jpg" class="img-fluid " alt="">
+						</div>
+						 <a href="#" class="heart">
+						 <i class="fa-regular fa-heart"></i>
+						 </a>
+
+						 <p class="nameproduct">Cranberry orange cake</p>
+						 <p class="description">Cranberry, whole milk, fresh orange juice, egg, cream butter,...</p>
+						 <h3 class="price">$ 43.50</h3>	
+						<div class="btnpc">
+						<a href="" class="buynow" > Buy now </a>
+					 	<a href="" class="shoppingicon"><i class="fa-regular fa-cart-shopping"></i></a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+		</div>
+				  <div class="row 
+					  col-xl-4
+					  col-lg-4
+					  d-none d-md-block
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/kittycake.jpg" class="img-fluid " alt="">
+						</div>
+						 <a href="#" class="heart">
+						 <i class="fa-regular fa-heart"></i>
+						 </a>
+
+						 <p class="nameproduct">Kitty cute cake</p>
+						 <p class="description">Mint flavor, chocolate, milk, whipping cream, sugar...</p>
+						 <h3 class="price">$35.60</h3>
+					
+					
+						<div class="btnpc">
+						<a href="" class="buynow" > Buy now </a>
+					 	<a href="" class="shoppingicon"><i class="fa-regular fa-cart-shopping"></i></a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+			</div>
+				</div>			  
+		</div><!--row-->
+	  </div><!-----------container-------->
+	  
+	  <!---------------------------BANNER05--------------------------->
+	  
+	<div class="container-fluid" id="bgbanner05">	
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4" id="bannercontent05">
+					<div id="content05"> 
+						<h3 class="title2">Cake for you</h3>
+						<p class="descripbanner05">Creating beautiful one of kind wedding cakes & cupcakes is our specialty!  </p>
+						<a href="" id="btnreadnow2"> Read now </a>	
+					</div><!--bgcontent-->	
+				</div><!--bannercontent01-->
+			</div><!--row-->
+		</div>	<!--container-->
+	</div> <!--container-fluid-->
+	
+  <!---------------------------OUR SPECIALITES--------------------------->
+	 	<div class="container-fluid" id="bgspecialities">
+		<div class="container">
+					<div class="col-xl-12
+						  col-lg-12
+						  col-md-12
+						  col-sm-12
+						  col-12 bigtitle"> Our Specialities
+
+		 </div><!--row-->
+		<div>
+			<div class="row justify-content-between productcard">
+		  		<div class="row 
+					  col-xl-4
+					  col-lg-4
+					  col-d-4
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/(cut).jpg" class="img-fluid " alt="" style="width: 100%;">
+						</div>
+							 <p class="nameproduct">Special Occasion Cakes</p>
+							 <p class="description">Celebrate Life with Sweets. The purpose of your wedding cake is twofold</p>
+						<div class="btnpc">
+							<a href="" class="viewmore" > View more </a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+			</div>
+			
+				  <div class="row 
+					  col-xl-4
+					  col-lg-4
+					  col-d-4
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/violetwd(cut)).jpg" class="img-fluid" alt="" style="width: 100%;">
+						</div>
+						 <a href="#" class="heart">
+						 </a>
+						 <p class="nameproduct">Wedding cake</p>
+						 <p class="description">Cranberry, whole milk, fresh orange juice, egg, cream butter,...</p>
+						<div class="btnpc">
+						<a href="" class="viewmore" > View more </a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+		</div>
+				  <div class="row 
+					  col-xl-4
+					  col-lg-4
+					  d-none d-md-block
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/dessert on wd.jpg" class="img-fluid " alt="" style="width: 100%;">
+						</div>
+						 <a href="#" class="heart">
+						 </a>
+						 <p class="nameproduct">Cupcakes & more</p>
+						 <p class="description">Celebrate  your wedding with Sweets. We will prepare for you the dessert, cupcakes and more.</p>	
+						<div class="btnpc">
+						<a href="" class="viewmore" > View more </a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+			</div>
+				</div>			  
+		</div><!--row--></div>
+	  </div><!-----------container-------->
+	  
+	  
+	 <!---------------------------OUR STORY--------------------------->  
+	  <div class="container-fluid" id="bgstory">
+	  	<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-md-12" id="imgstory1">
+					<img src="imgs/aboutus.jpg" alt="" style="width: 100%; max-width: 540px;">
+				</div>
+				<div class="col-xl-6 col-md-12" id="contentstory1">
+					<h2>Our Story</h2>
+					<p>"Cherie". Simply but, it means, “darling” or something sweet. Good cake is the foundation of a good mood. It is the key to a handcrafted cupcake. </p>
+				</div>
+					<div class="col-xl-6 col-md-12 order-xl-1 order-md-2" id="contentstory2">
+					<p>“Best Cakes in the Country” has been the motto since 2000.  Right from the beginning, it was obvious that Cheese cake was not going to be just another cheese cake store.</p>
+					<a href="" class="btnreadnow" >Read now </a>
+				</div>
+				<div class="col-xl-6 col-md-12 order-xl-2 order-md-1" id="imgstory2" >
+					<img src="imgs/bake.jpg" alt="" style="width: 100%; max-width: 540px;">
+				</div>
+			</div><!----row----->
+		</div><!-----------container-------->
+	  </div><!------------container-fluid-------------->
+	  
+	  <!---------------------------VALUES--------------------------->
+	 <div class="container-fluid values ">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4
+							col-lg-4
+							col-md-4
+							col-sm-4
+							col-4 value1"> 
+					<img class="imgvalue" src="imgs/quality.png" alt="" >
+					<p class="content">Good Quality</p>
+				</div>
+				
+				<div class="col-xl-4
+							col-lg-4
+							col-md-4
+							col-sm-4
+							col-4 value1">
+					<img class="imgvalue" src="imgs/fast-delivery.png" alt="" >
+					<p class="content">Fast Delivery</p>
+				</div>
+				
+				<div class="col-xl-4
+							col-lg-4
+							col-md-4
+							col-sm-4
+							col-4
+							value1">
+					<img class="imgvalue" src="imgs/community.png" alt="">
+					<p class="content">Community</p>
+				</div>
+			</div><!------------row--------------->
+		</div><!------------container----------------->
+	</div><!------------container-fluid-------------------->
+	  
+	  
+	  <!---------------------------TESTIMOMIALS--------------------------->  
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-xl-12
+						  col-lg-12
+						  col-md-12
+						  col-sm-12
+						  col-12 bigtitle">Testimonials</div>
+		 
+			<div class="col-xl-4
+						testiimg">
+				<img class="" src="imgs/donna.jpg" style="max-width: 420px; width: 100%; border-radius: 100%;">	
+		  	</div>
+			<div class="col-xl-8
+						testicontent">Donna
+Thank you very much for the delicious cakes ! Grudgingly, I had to share them with my staff. Fantastic stuff, and fantastically kind of you, I think I set my alleged diet back another two months! But it was worth every crumb! Thank you again!
+All my best.</div>
+		  </div><!------row----------->
+	  </div><!--------container----------->
+	  
+	   <!---------------------------BANNER 06--------------------------->  
+	  <div class="container-fluid" id="bgbanner06">	
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4" id="bannercontent06">
+					<div id="bgcontent06"> <h2 class="title4">Some red are here</h2>	
+						<a href="" class="btnreadnow"> Read now </a>	
+					</div><!--bgcontent-->	
+				</div><!--bannercontent01-->
+			</div><!--row-->
+		</div>	<!--container-->
+	</div> <!--container-fluid-->
+	  
+	  <!---------------------------CHEESE CAKE--------------------------->  
+	  
+	 <div class="container">
+		<div class="col-xl-12
+						  col-lg-12
+						  col-md-12
+						  col-sm-12
+						  col-12 bigtitle">Cheese cake
+
+		 </div><!--row-->
+		<div>
+			<div class="row justify-content-between productcard">
+		  		<div class="row 
+					  col-xl-4
+					  col-lg-4
+					  col-d-4
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/delish-carrot-cake-cheesecake.jpg" class="img-fluid " alt="">
+						</div>
+							 <a href="" class="heart"><i class="fa-regular fa-heart"></i></a>
+							 <p class="nameproduct">Vanilla blue cupcake</p>
+							 <p class="description">Vanilla flavor, all purpose flour, egg, milk, whipping cream,...</p>
+							 <h3 class="price">$4.75</h3>
+						<div class="btnpc">
+							<a href="" class="buynow" > View more </a>
+					 		<a href="" class="shoppingicon"><i class="fa-regular fa-cart-shopping"></i></a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+			</div>
+			
+				  <div class="row 
+					  col-xl-4
+					  col-lg-4
+					  col-d-4
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/cranberry orange cake.jpg" class="img-fluid " alt="">
+						</div>
+						 <a href="#" class="heart">
+						 <i class="fa-regular fa-heart"></i>
+						 </a>
+
+						 <p class="nameproduct">Cranberry orange cake</p>
+						 <p class="description">Cranberry, whole milk, fresh orange juice, egg, cream butter,...</p>
+						 <h3 class="price">$ 43.50</h3>	
+						<div class="btnpc">
+						<a href="" class="buynow" > Buy now </a>
+					 	<a href="" class="shoppingicon"><i class="fa-regular fa-cart-shopping"></i></a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+		</div>
+		
+				  <div class="row 
+					  col-xl-4
+					  col-lg-4
+					  d-none d-md-block
+					  ">
+			  	<div class="product"> 
+					<div class="img-pc"> 
+						<div class="img-box">
+							<img src="imgs/kittycake.jpg" class="img-fluid " alt="">
+						</div>
+						 <a href="#" class="heart">
+						 <i class="fa-regular fa-heart"></i>
+						 </a>
+
+						 <p class="nameproduct">Kitty cute cake</p>
+						 <p class="description">Mint flavor, chocolate, milk, whipping cream, sugar...</p>
+						 <h3 class="price">$35.60</h3>
+					
+					
+						<div class="btnpc">
+						<a href="" class="buynow" > Buy now </a>
+					 	<a href="" class="shoppingicon"><i class="fa-regular fa-cart-shopping"></i></a>
+						</div><!---btnpc------>
+					</div> <!---imgpc----->
+			  	 </div> <!-------product------->
+			</div>
+				</div>			  
+		</div><!--row-->
+	  </div><!-----------container-------->
+	  
+	  
+	   <!---------------------------BANNER 07---------------------------> 
+	  	<div class="container-fluid" id="bgbanner07">	
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 offset-xl-8" id="bannercontent07">
+					<div id="content07"> 
+						<h3 class="title4">For autumn</h3>	
+						<p class="descripbanner05">A delicious cake for this cool weather, why not?  </p>
+						<a href="" class="btnreadnow"> Read now </a>	
+					</div><!--bgcontent-->	
+				</div><!--bannercontent01-->
+			</div><!--row-->
+		</div>	<!--container-->
+	</div> <!--container-fluid-->
+	
+	  
+	   <!---------------------------BLOGS---------------------------> 
+	  
+	   <!---------------------------SIGNUP---------------------------> 
+		  	<div class="container-fluid" id="bgbanner08">	
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12" id="bannercontent08">
+					<div id="content08"> 
+						<h3 class="titlesignup">Salted caramel cupcake</h3>	
+						<p class="descripbanner05">Sweet and sour. These two will blow your flavor! </p>
+						<a href="" id="btnsignup"> Sign up </a>	
+					</div><!--bgcontent-->	
+				</div><!--bannercontent01-->
+			</div><!--row-->
+		</div>	<!--container-->
+	</div> <!--container-fluid-->
+	  
+	   <!---------------------------FOOTER---------------------------> 
+	  
+	<div class="container-fluid " id="bgfooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+				</div>
+				<div class=></div>
+			</div><!--row-->
+		</div><!--container-->
+	</div><!--container-fluid-->
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+  </body>
+</html>
